@@ -1,1 +1,5 @@
-public main
+public class username {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}

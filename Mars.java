@@ -2,16 +2,17 @@ public class Mars {
     String status;
     int speed;
     float temperature;
+    String state;
 
     void checkSpeed(){
-        System.err.println("Checking speed...");
+        System.out.println("Checking speed...");
         System.out.println("Speed: " + speed);
         if (speed < 0) {
-            status = "MarsRobot is not moving";
+            state = "MarsRobot is not moving";
         } else if (speed > 10) {
-            status = "MarsRobot is moving too fast";
+            state = "MarsRobot is moving too fast";
         } else {
-            status = "MarsRobot is moving at a normal speed";
+            state = "MarsRobot is moving at a normal speed";
         }
     }
 
@@ -27,7 +28,8 @@ public class Mars {
     }
     void showAttributes() {
         System.out.println("Status: " + status);
-        // System.out.println("Speed: " + speed);
+        System.out.println("Speed: " + speed);
+        System.out.println("State: " + state);
         System.out.println("Temperature: " + temperature);
     }
 }

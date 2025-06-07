@@ -1,8 +1,8 @@
 # Compiled Java class files
 *.class
 
-# Log files
-*.log
+    # Log files
+    *.log
 
 # BlueJ files
 *.ctxt

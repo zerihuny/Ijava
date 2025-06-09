@@ -1,6 +1,6 @@
 public class Mars {
-    String status;
-    int speed;
+    String status = "Unknown";
+    int speed = 0;
     float temperature;
     String state;
 
@@ -18,9 +18,9 @@ public class Mars {
 
     void checkTemperature() {
         if (temperature < -9) {
-            status = "MarsRobot is feeling cold and cold";
+            status = "MarsRobot is feeling very cold";
         } else if (temperature > 20) {
-            status = "Too hot, returning home";
+            status = "MarsRobot is overheating, returning to base";
             speed = 5;
         } else {
             status = "Temperature is normal";

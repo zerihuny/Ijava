@@ -1,7 +1,7 @@
 public class Mars {
     String status = "Unknown";
     int speed = 0;
-    float temperature;
+    float temperature = 0.0f;
     String state;
 
     void checkSpeed(){

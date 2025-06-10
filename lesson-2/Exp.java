@@ -8,6 +8,6 @@ public class Exp {
         System.out.println("x: " + x);
         System.out.println("y: " + y);
 
-        System.out.println("Scores: " + z);
+        System.out.println("the epronent additioin will be: " + z);
     }
 }

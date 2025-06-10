@@ -3,6 +3,8 @@ public class Mars {
     int speed = 0;
     float temperature = 0.0f;
     String state;
+    char driection = 'N';
+    
 
     void checkSpeed(){
         System.out.println("Checking speed...");

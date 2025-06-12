@@ -2,7 +2,7 @@
 
 import java.util.*; 
 
-class Main { 
+class Mainn { 
 	public static void main(String[] args) 
 	{ 
 		int length = 10; 

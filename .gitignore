@@ -18,6 +18,8 @@
 # Virtual machine crash logs
 hs_err_pid*
 
+# Eclipse Core Dump
+*.core
 # VS Code settings
 .vscode/
 

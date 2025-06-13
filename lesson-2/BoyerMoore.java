@@ -1,4 +1,4 @@
-package com.thealgorithms.searches;
+// package com.thealgorithms.searches;
 
 /**
  * Boyer-Moore string search algorithm.

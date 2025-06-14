@@ -27,3 +27,9 @@ public class BirthdaySplitter {
 }
 // This program takes a birthday in MM/DD/YYYY format and splits it into
 // three individual strings: month, day, and year. It uses the `split` method
+// of the String class to separate the components based on the "/" delimiter.
+// The resulting strings are then printed to the console.
+// The output will be:
+// Month: 04
+// Day: 29
+// Year: 2020

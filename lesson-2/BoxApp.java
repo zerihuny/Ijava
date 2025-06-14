@@ -1,5 +1,6 @@
 /* Create a class with instance variables for height, weight, and depth, making each
-an integer. Create a Java application that uses your new class, sets each of these
+an integer. 
+Create a Java application that uses your new class, sets each of these
  values in an object, and displays the values.
  */
 

@@ -31,5 +31,10 @@ public class BirthdaySplitter {
 // The resulting strings are then printed to the console.
 // The output will be:
 // Month: 04
-// Day: 29
+// Day: 29          
 // Year: 2020
+// This program is a simple demonstration of string manipulation in Java.
+// It can be easily modified to handle different formats or additional functionality,   
+// such as validating the input format or handling invalid dates.
+// This code is a basic example of how to manipulate strings in Java.
+// It can be extended or modified to suit more complex requirements, such as

@@ -1,3 +1,12 @@
+/*
+Array Rules: Type Consistency
+All items in an array must be of the same type:
+
+You can’t mix types (e.g., int and String).
+
+You can store different subclasses if the array type is a superclass.
+
+ */
 public class afro {
   
     

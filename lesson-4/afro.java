@@ -19,6 +19,7 @@ public class afro {
         boxs[2] = 45.67;
         boxs[3] = true;
         boxs[4] = new int[]{1, 2, 3};
-
+        System.out.println(boxs[4]);
+        System.out.println(boxs.length);
     }
 }

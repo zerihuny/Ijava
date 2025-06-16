@@ -20,6 +20,14 @@ public class afro {
         boxs[3] = true;
         boxs[4] = new int[]{1, 2, 3};
         System.out.println(boxs[4]);
+
+
+    int ages[];
+    ages = new int[5];
+ //  Java Arrays Are Objects
+// Unlike languages like C/C++, arrays in Java are objects:
+// They are created with new
+// They store metadata (like their length)
         System.out.println(boxs.length);
     }
 }

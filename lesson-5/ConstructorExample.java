@@ -1,6 +1,5 @@
 class Dog{
-    String name;
-    int age;
+   
     /**
      * Constructs a new Dog object with the specified name and age.
      * 
@@ -15,6 +14,11 @@ class Dog{
      * the This keyword is used to refer to the current instance of the class, or object.
      * It is often used to distinguish between instance variables and parameters with the same name.
      */
+   
+   
+    String name;
+    int age;
+   
     Dog(String name, int age) {
         this.name = name;
         this.age = age;

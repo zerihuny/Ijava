@@ -5,11 +5,11 @@ public class Passer {
         }
     }
 
-    public static void main(String[] arguments) {
+    public static void main(String[] args) {
         Passer passer = new Passer();
-        passer.toUpperCase(arguments); // passing array of strings
+        passer.toUpperCase(args); // passing array of strings
 
-        for (String arg : arguments) {
+        for (String arg : args) {
             System.out.print(arg + " ");
         }
         System.out.println();

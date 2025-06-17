@@ -1,6 +1,20 @@
 class Dog{
     String name;
     int age;
+    /**
+     * Constructs a new Dog object with the specified name and age.
+     * 
+     * @param name the name of the dog
+     * @param age the age of the dog
+     * 
+     * The {@code this} keyword is used to refer to the current instance of the class,
+     * allowing assignment of the constructor parameters to the instance variables.
+     * 
+     * 
+     * 
+     * the This keyword is used to refer to the current instance of the class, or object.
+     * It is often used to distinguish between instance variables and parameters with the same name.
+     */
     Dog(String name, int age) {
         this.name = name;
         this.age = age;

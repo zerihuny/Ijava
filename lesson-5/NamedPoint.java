@@ -1,4 +1,5 @@
 
+// This class extends java.awt.Point to include a name for the point.
 
 import java.awt.Point;
 
@@ -8,6 +9,7 @@ class NamedPoint extends Point {
     NamedPoint(int x, int y, String name) {
         super(x, y);
         this.name = name;
+        
     }
 
     public static void main(String[] arguments) {

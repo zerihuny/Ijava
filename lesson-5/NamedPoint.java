@@ -1,4 +1,4 @@
-
+// bini#54
 // This class extends java.awt.Point to include a name for the point.
 // It demonstrates how to create a custom class that inherits from a Java standard library class.
 // The NamedPoint class has a constructor that initializes the x and y coordinates as well as the name.

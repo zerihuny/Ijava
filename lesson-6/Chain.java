@@ -2,7 +2,7 @@ class Book {
     String title;
     int pages;
     Book (String title){
-        this(title, 0)
+        this(title, 0);
     }
     Book (String title, int pages){
         this.title = title;

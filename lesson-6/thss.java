@@ -41,3 +41,5 @@ public class thss {
         scanner.close();
     }
 }
+// This code implements a simple calculator that takes two numbers and an operator from the user,
+// performs the operation, and prints the result. It handles division by zero and invalid operators.

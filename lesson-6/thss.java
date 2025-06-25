@@ -45,4 +45,6 @@ public class thss {
 // performs the operation, and prints the result. It handles division by zero and invalid operators.
 
 // The code uses a switch statement to determine the operation based on the operator input.
+
+// It also uses a Scanner to read user input from the console. The program will exit gracefully
 // It also uses a Scanner to read user input from the console. The program will exit gracefully

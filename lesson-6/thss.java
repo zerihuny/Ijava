@@ -43,3 +43,6 @@ public class thss {
 }
 // This code implements a simple calculator that takes two numbers and an operator from the user,
 // performs the operation, and prints the result. It handles division by zero and invalid operators.
+
+// The code uses a switch statement to determine the operation based on the operator input.
+// It also uses a Scanner to read user input from the console. The program will exit gracefully

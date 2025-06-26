@@ -10,5 +10,10 @@ public class SubClass extends SuperClass {
     // INVALID: less accessible
     // private void doSomething() {} // ❌ COMPILATION ERROR
 }
+    // public static void main(String[] args) {
+    //     SubClass sub = new SubClass();
+    //     sub.doSomething(); // Calls the public method in SubClass
+    //     System.out.println("Method executed successfully.");
+    // }
 
 }

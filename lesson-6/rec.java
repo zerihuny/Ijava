@@ -16,5 +16,6 @@ public class rec {
         // Uncommenting the following line will cause a compilation error
         // because setAge is private.
         // user.setAge(-5);
+        // System.out.println("User age: " + user.getAge());
     }
 }

@@ -18,5 +18,7 @@ public class rec {
         // user.setAge(-5);
         // System.out.println("User age: " + user.getAge());
         //what dp
+        // System.out.println("User age: " + user.age); // This line would cause an error
+        // because age is private and cannot be accessed directly.
     }
 }

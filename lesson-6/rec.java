@@ -28,5 +28,7 @@ public class rec {
         // Encapsulation helps maintain the integrity of the object's state and provides a clear interface for interaction
         // Mrphism will also do
         // 
+        // In this example, the User class encapsulates the age property,
+        // allowing it to be set only through the setAge method, which includes validation.
     }
 }

@@ -24,5 +24,7 @@ public class rec {
         // The setAge method allows setting the age only if it is greater than 0.
         // The getAge method allows retrieving the age.
         // This demonstrates encapsulation in Java, where the internal state of an object is protected
+        // from direct access by external code, ensuring that the object's data is modified only through its methods.
+        // Encapsulation helps maintain the integrity of the object's state and provides a clear interface for interaction
     }
 }

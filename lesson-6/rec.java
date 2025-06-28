@@ -30,5 +30,7 @@ public class rec {
         // 
         // In this example, the User class encapsulates the age property,
         // allowing it to be set only through the setAge method, which includes validation.
+        //      mn alsh
+        //sdf
     }
 }

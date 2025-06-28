@@ -22,5 +22,7 @@ public class rec {
         // because age is private and cannot be accessed directly.
         // The above line is commented out to avoid compilation error.
         // The setAge method allows setting the age only if it is greater than 0.
+        // The getAge method allows retrieving the age.
+        // This demonstrates encapsulation in Java, where the internal state of an object is protected
     }
 }

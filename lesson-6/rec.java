@@ -20,5 +20,7 @@ public class rec {
         //what dp
         // System.out.println("User age: " + user.age); // This line would cause an error
         // because age is private and cannot be accessed directly.
+        // The above line is commented out to avoid compilation error.
+        // The setAge method allows setting the age only if it is greater than 0.
     }
 }

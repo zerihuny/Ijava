@@ -19,7 +19,7 @@ public class SubClass extends SuperClass {
     /*
     
     yhe nw my heatmap
-    lelagnaw degmo mn ende hone balawkem yhenen hulu senager misera
+    lelagnaw degmo mn ende hone tekekel lalhon echelalew
     ??
 */
 }

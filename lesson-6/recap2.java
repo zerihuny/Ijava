@@ -21,5 +21,24 @@ public class SubClass extends SuperClass {
     yhe nw my heatmap
     lelagnaw degmo mn ende hone tekekel lalhon echelalew
     ??
+    
 */
+}
+public class Innerrecap2 {
+
+    public static void demonstrateInnerClass() {
+        // Creating an instance of the outer class
+        recap2 outer = new recap2();
+
+        // Creating an instance of the non-static inner class SuperClass
+        recap2.SuperClass superInstance = outer.new SuperClass();
+
+        // Creating an instance of the non-static inner class SubClass
+        recap2.SubClass subInstance = outer.new SubClass();
+
+        // Calling the overridden method
+        subInstance.doSomething();
+
+        System.out.println("Inner class advanced concepts demonstrated.");
+    }
 }

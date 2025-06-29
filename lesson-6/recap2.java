@@ -40,5 +40,6 @@ public class Innerrecap2 {
         subInstance.doSomething();
 
         System.out.println("Inner class advanced concepts demonstrated.");
+        
     }
 }

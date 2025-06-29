@@ -42,5 +42,7 @@ public class Innerrecap2 {
         System.out.println("Inner class advanced concepts demonstrated.");
         // Demonstrating the use of inner classes
         // This will print "Inner class advanced concepts demonstrated."
+        // and show that the inner class can access the outer class's members.
+        
     }
 }

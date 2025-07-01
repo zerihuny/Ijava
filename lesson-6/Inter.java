@@ -25,6 +25,8 @@ public class Inter {
     public static void main(String[] args) {
         // We instantiate Duck to create an object so we can call its fly() and swim() methods.
 // Without creating a Duck object, we can't use these instance methods.
+// // The Duck class implements both Flyable and Swimmable interfaces, so it can perform both actions.
+        // This demonstrates the use of multiple interfaces in Java.
         Duck duck = new Duck();
         duck.fly();
         duck.swim();

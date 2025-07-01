@@ -33,6 +33,8 @@ public class Inter {
         // This is a simple example of how interfaces can be used to define capabilities that can be
         // shared across different classes.
         // This code is a demonstration of using interfaces in Java.
+        // We instantiate Duck to create an object so we can call its fly() and swim() methods.
+        // Without creating a Duck object, we can't use these instance methods.
         Duck duck = new Duck();
         duck.fly();
         duck.swim();

@@ -23,6 +23,8 @@ class Duck implements Flyable, Swimmable {
 }
 public class Inter {
     public static void main(String[] args) {
+        // We instantiate Duck to create an object so we can call its fly() and swim() methods.
+// Without creating a Duck object, we can't use these instance methods.
         Duck duck = new Duck();
         duck.fly();
         duck.swim();

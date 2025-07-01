@@ -31,6 +31,8 @@ public class Inter {
         // Interfaces allow for a form of multiple inheritance in Java, enabling classes to implement multiple behaviors 
         // Interfaces allow for a flexible design, where classes can be designed to adhere to multiple contracts without being tied to a specific class hierarchy.
         // This is a simple example of how interfaces can be used to define capabilities that can be
+        // shared across different classes.
+        // This code is a demonstration of using interfaces in Java.
         Duck duck = new Duck();
         duck.fly();
         duck.swim();

@@ -27,6 +27,8 @@ public class Inter {
 // Without creating a Duck object, we can't use these instance methods.
 // // The Duck class implements both Flyable and Swimmable interfaces, so it can perform both actions.
         // This demonstrates the use of multiple interfaces in Java.
+// intantiation of Duck class is necessary to access its methods.
+        // Interfaces allow for a form of multiple inheritance in Java, enabling classes to implement multiple behaviors 
         Duck duck = new Duck();
         duck.fly();
         duck.swim();

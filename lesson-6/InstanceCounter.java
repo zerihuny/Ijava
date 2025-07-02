@@ -30,6 +30,7 @@ public class InstanceCounter {
        for (int i = 0; i < 500; ++i) {
             new InstanceCounter();
        }
+       // 
        System.out.println("Created " +
             InstanceCounter.getCount() + " objects");
    }

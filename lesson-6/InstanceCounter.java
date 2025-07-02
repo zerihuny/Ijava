@@ -9,7 +9,10 @@ public class InstanceCounter {
 //  // This method is private so that it can only be called
 //  // from within this class.
    // It increments the number of instances.
+   // It is static so that it can be called without an instance.
+   // This is a common pattern in Java to keep track of the number of instances created.
    
+
 
    private static void addInstance() {
        numInstances++;

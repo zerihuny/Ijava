@@ -6,6 +6,7 @@ public class InstanceCounter {
    protected static int getCount() {
         return numInstances;
    }
+//  // This method is private so that it can only be called
 
    private static void addInstance() {
        numInstances++;

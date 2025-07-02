@@ -7,6 +7,9 @@ public class InstanceCounter {
         return numInstances;
    }
 //  // This method is private so that it can only be called
+//  // from within this class.
+   // It increments the number of instances.
+   
 
    private static void addInstance() {
        numInstances++;

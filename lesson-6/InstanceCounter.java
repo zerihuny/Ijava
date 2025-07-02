@@ -10,7 +10,7 @@ public class InstanceCounter {
    private static void addInstance() {
        numInstances++;
    }
-
+// 
    InstanceCounter() {
        InstanceCounter.addInstance();
    }

@@ -11,13 +11,14 @@ public class InstanceCounter {
    // It increments the number of instances.
    // It is static so that it can be called without an instance.
    // This is a common pattern in Java to keep track of the number of instances created.
-   
+
 
 
    private static void addInstance() {
        numInstances++;
    }
 // 
+// what should be typed here
    InstanceCounter() {
        InstanceCounter.addInstance();
    }

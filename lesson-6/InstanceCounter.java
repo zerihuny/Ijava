@@ -22,6 +22,7 @@ public class InstanceCounter {
    InstanceCounter() {
        InstanceCounter.addInstance();
    }
+   // and here
 
    public static void main(String[] arguments) {
        System.out.println("Starting with " +

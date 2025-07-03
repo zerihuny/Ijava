@@ -27,3 +27,6 @@ public class Chain {
 
 // The main method is empty, indicating that no specific functionality is implemented yet.
 // The code demonstrates constructor chaining in Java, where one constructor calls another to avoid code duplication.
+// The code demonstrates constructor chaining in Java, where one constructor calls another to avoid code duplication.
+
+// The code demonstrates constructor chaining in Java, where one constructor calls another to avoid code duplication.

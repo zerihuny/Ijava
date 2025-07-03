@@ -38,3 +38,5 @@ public class Chain {
 // The code defines a Book class with a constructor that can be called with one or two parameters.
 // // The code demonstrates constructor chaining in Java, where one constructor calls another to avoid code duplication.
 // The code demonstrates constructor chaining in Java, where one constructor calls another to avoid code duplication.
+// The code demonstrates constructor chaining in Java, where one constructor calls another to avoid code duplication.
+// The code demonstrates constructor chaining in Java, where one constructor calls another to avoid code duplication.

@@ -42,3 +42,4 @@ public class Chain {
 // The code demonstrates constructor chaining in Java, where one constructor calls another to avoid code duplication.
 // The code defines a Book class with a constructor that can be called with one or two parameters.
 // The first constructor initializes the title and sets pages to 0, while the second constructor initializes both title and pages.
+// The toString method returns a string representation of the Book object, including its title and number of pages.

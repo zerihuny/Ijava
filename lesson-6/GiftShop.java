@@ -1,5 +1,11 @@
 
-
+// File: lesson-6/GiftShop.java
+// This code demonstrates a simple gift shop application that manages items in a store.
+// It defines a Storefront class that allows adding items, sorting them, and retrieving their details.
+// The main method creates a Storefront instance, adds several items, sorts them, and prints their details.
+// The Storefront class uses an ArrayList to store Item objects, which represent individual items in the shop.
+// The Item class encapsulates the properties of an item, such as ID, name, retail price, and quantity.
+// The code showcases basic object-oriented programming concepts such as encapsulation, data management, and sorting.
 public class GiftShop {
   public static void main(String[] arguments) {
         Storefront store = new Storefront();

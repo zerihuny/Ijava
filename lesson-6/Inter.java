@@ -13,6 +13,8 @@ interface Swimmable {
     void swim();
 }
 class Duck implements Flyable, Swimmable {
+    // The Duck class implements both Flyable and Swimmable interfaces, so it can perform both actions.
+    // intantiation of Duck class is necessary to access its methods.
     @Override
     public void fly(){
         System.out.println("Duck is flying");

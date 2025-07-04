@@ -1,3 +1,13 @@
+// File: lesson-6/rec.java
+// This code demonstrates encapsulation in Java by using a private field and public methods to access it
+// It defines a User class with a private age field, a public method to set the age with validation,
+// and a public method to get the age. The main method creates an instance of User,
+// sets the age using the setAge method, and retrieves the age using the getAge method.
+// The setAge method ensures that the age can only be set to a positive value, demonstrating
+// encapsulation by restricting direct access to the age field. 
+// This code is a demonstration of encapsulation in Java.
+// Encapsulation is a fundamental principle of object-oriented programming that restricts direct access to an object's
+
 class User {
     private int age;
 

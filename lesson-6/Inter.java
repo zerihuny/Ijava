@@ -22,6 +22,8 @@ class Duck implements Flyable, Swimmable {
     public void swim(){
         System.out.println("Duck is swimming");
     }
+    // This demonstrates the use of multiple interfaces in Java.
+    // Interfaces allow for a form of multiple inheritance in Java, enabling classes to implement multiple behaviors    
 }
 public class Inter {
     public static void main(String[] args) {

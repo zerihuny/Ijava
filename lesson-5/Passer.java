@@ -20,9 +20,8 @@ public class Passer {
     public static void main(String[] args) {
         Passer passer = new Passer();
         passer.toUpper(args); // passing array of strings
-
-       for (int i = 0; i < args.length; i++) {
-            System.out.print(args[i] + " ");
+        for (String arg : args) {
+            System.out.print(arg + " ");
         }
         System.out.println();
     }

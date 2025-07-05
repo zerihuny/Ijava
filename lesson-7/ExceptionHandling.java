@@ -7,9 +7,17 @@ public class ExceptionHandling {
         try {
             // Simulate some code that may throw an exception
             int result = 10 / 0; // This will throw ArithmeticException
-        } catch (ArithmeticException e) {
+        } catch (ArithmeticException e) { // Catch specific exception
+            // Handle the exception specifically
+            // This block will execute if an ArithmeticException is thrown in the try block.
+            // The catch block is used to handle exceptions that are thrown in the try block.
             System.out.println("Caught an arithmetic exception: " + e.getMessage());
-        } catch (Exception e) {
+        } catch (Exception e) { // Catch general exception
+            // Handle any other exceptions that are not caught by the previous catch block
+            // This block will execute if any other exception is thrown in the try block.
+            // The catch block is used to handle exceptions that are thrown in the try block.
+            // This is a general catch block that will catch any exception that is not caught by the previous catch block.
+            // It is a good practice to catch specific exceptions first, and then catch general exceptions.
             System.out.println("Caught a general exception: " + e.getMessage());
         } finally {
             System.out.println("This block always executes, regardless of exceptions.");

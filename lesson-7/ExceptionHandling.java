@@ -3,9 +3,10 @@ public class ExceptionHandling {
         // This variable is defined outside the try block to make it accessible in the finally block.
         // This allows us to use 'result' in the finally block, even if an exception occurs in the try block.
     public static void main(String[] args) {
-
+        int test = 23/0;
         try {
             // Simulate some code that may throw an exception
+            // Example of unchecked exception and it is not checked at compile time.
             int result = 10 / 0; // This will throw ArithmeticException
         } catch (ArithmeticException e) { // Catch specific exception
             // Handle the exception specifically

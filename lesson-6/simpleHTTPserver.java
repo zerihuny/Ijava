@@ -10,6 +10,7 @@
 // that can handle HTTP requests and send responses.
 // The server can be extended to handle more complex requests and responses as needed.
 // File: lesson-6/simpleHTTPserver.java
+
 public class simpleHTTPserver {
     public static void main(String[] args) throws Exception {
         com.sun.net.httpserver.HttpServer server = com.sun.net.httpserver.HttpServer.create(

@@ -1,3 +1,10 @@
+/**
+ * This class demonstrates basic exception handling in Java.
+ * It shows how to use try-catch-finally blocks to handle exceptions,
+ * specifically the ArithmeticException caused by division by zero.
+ * The code also illustrates the difference between local and instance variables
+ * in the context of exception handling.
+ */
 public class ExceptionHandling {
         public int result = 0; // Initialize result
         // This variable is defined outside the try block to make it accessible in the finally block.

@@ -9,6 +9,11 @@ public class ThreadExample {
         thread2.start();
     }
 }
+// This code demonstrates how to create threads in Java using two different approaches:
+// 1. By extending the `Thread` class.      
+// 2. By implementing the `Runnable` interface.
+// The `MyThread` class extends `Thread` and overrides the `run` method to define the thread's behavior.
+// The `MyRunnable` class implements `Runnable` and also overrides the `run` method to define the thread's behavior.    
 
 // Extending Thread class
 class MyThread extends Thread {

@@ -13,7 +13,8 @@ class MyThread extends Thread {
                 Thread.sleep(500);
             } catch (InterruptedException e) {
                 System.out.println(getName() + " interrupted.");
-            }
+            }//
+            //
         }
         // 
         System.out.println(getName() + " finished.");

@@ -9,6 +9,7 @@ class MyThread extends Thread {
             System.out.println(getName() + " - Count: " + i);
             try {
                 // Sleep for 500 milliseconds to simulate work
+                // the sleep in milliseconds 
                 Thread.sleep(500);
             } catch (InterruptedException e) {
                 System.out.println(getName() + " interrupted.");

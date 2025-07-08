@@ -19,6 +19,7 @@ class MyThread extends Thread {
         // This is a tread that will allow concurrent 
     }
 }
+//
 
 public class arch {
     public static void main(String[] args) {

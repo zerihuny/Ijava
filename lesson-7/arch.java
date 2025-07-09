@@ -15,6 +15,7 @@ class MyThread extends Thread {
                 System.out.println(getName() + " interrupted.");
             }//
             //
+            /// asdfasdf
         }
         /// ene mn awke
         // ////////

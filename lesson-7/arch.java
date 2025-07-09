@@ -16,6 +16,7 @@ class MyThread extends Thread {
             }//
             //
         }
+        /// ene mn awke
         // ////////
         System.out.println(getName() + " finished.");
         // This is a tread that will allow concurrent 

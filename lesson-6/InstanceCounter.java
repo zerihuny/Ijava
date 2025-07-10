@@ -22,6 +22,7 @@ public class InstanceCounter {
    InstanceCounter() {
        InstanceCounter.addInstance();
    }
+   /// mn 
    // and here
 
    public static void main(String[] arguments) {

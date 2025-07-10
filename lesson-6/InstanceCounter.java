@@ -34,6 +34,8 @@ public class InstanceCounter {
        // 
        System.out.println("Created " +
             InstanceCounter.getCount() + " objects");
+
+            // 
    }
 }
 

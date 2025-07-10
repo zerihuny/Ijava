@@ -24,7 +24,7 @@ public class InstanceCounter {
    }
    /// mn 
    // and here
-
+//istafrla
    public static void main(String[] arguments) {
        System.out.println("Starting with " +
             InstanceCounter.getCount() + " objects");

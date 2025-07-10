@@ -23,7 +23,7 @@ public class InstanceCounter {
        InstanceCounter.addInstance();
    }
    /// mn 
-   // and here
+//    and here
 //istafrla
    public static void main(String[] arguments) {
        System.out.println("Starting with " +
@@ -36,7 +36,7 @@ public class InstanceCounter {
             InstanceCounter.getCount() + " objects");
 
             // 
-
+// dasfasdf
             // ,mn yhubnsadfasdfasdf
             //
    }

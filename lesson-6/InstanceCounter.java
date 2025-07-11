@@ -35,6 +35,7 @@ public class InstanceCounter {
        System.out.println("Created " +
             InstanceCounter.getCount() + " objects");
 
+// ..asfagertyqwery
             // 
 // dasfasdf
 // pr #54

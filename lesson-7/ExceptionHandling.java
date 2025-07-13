@@ -42,6 +42,11 @@ public class ExceptionHandling {
         System.out.println("Result is: " + new ExceptionHandling().result);
         System.out.println("Result is: " + new ExceptionHandling().result);
         System.out.println("Result is: " + new ExceptionHandling().result);
+        System.out.println("Result is: " + new ExceptionHandling().result);
+        System.out.println("Result is: " + new ExceptionHandling().result);
+        System.out.println("Result is: " + new ExceptionHandling().result);
+
+        System.out.println("Result is: " + new ExceptionHandling().result);
        // er
        /// the final day
        /// the final day

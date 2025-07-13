@@ -37,15 +37,7 @@ public class ExceptionHandling {
         // due to the exception thrown in the try block.    
         // To fix this, you can define 'result' outside the try block:
         System.out.println("Result is: " + new ExceptionHandling().result);
-        // This will print the value of 'result' which is initialized to 0.
-        // The 'result' variable is an instance variable of the ExceptionHandling class.    
-        // It is initialized to 0 when an instance of the class is created.
-        // Since the try block throws an exception, the 'result' variable is not modified.  
-        // Therefore, it retains its initial value of 0.
-        // The finally block always executes, regardless of whether an exception was thrown or not.
-        // This is a demonstration of how to handle exceptions in Java.
-        // This is a demonstration of how to handle exceptions in Java.
-// pr#54pr#54pr#54pr#54pr#54pr#54
+       // er
         // This is a demonstration of how to handle exceptions in Java.
         // This is a demonstration of how to handle exceptions in Java.pr#54pr#54pr#54pr#54
         // This is a demonstration of how to handle exceptions in Java.

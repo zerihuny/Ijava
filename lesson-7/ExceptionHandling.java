@@ -54,6 +54,8 @@ public class ExceptionHandling {
         // Therefore, it retains its initial value of 0.
         // Therefore, it retains its initial value of 0.
         // Therefore, it retains its initial value of 0.
+        // Therefore, it retains its initial value of 0.
+        // Therefore, ivvt retains its initial value of 0.
 
         // Therefore, it retains its initial value of 0.
         // Therefore, it retains its initial value of 0.

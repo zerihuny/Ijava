@@ -1,38 +1,31 @@
-
-
 public class InstanceCounter {
    private static int numInstances = 0;
 
+   // Returns the current number of instances created
    protected static int getCount() {
-        return numInstances;
+      return numInstances;
    }
-//  // This method is private so that it can only be called
-//  // from within this class.
-   // It increments the number of instances.
-   // It is static so that it can be called without an instance.
-   // This is a common pattern in Java to keep track of the number of instances created.
 
-
-
+   // Increments the number of instances
    private static void addInstance() {
-       numInstances++;
+      numInstances++;
    }
-// 
-// what should be typed here
+
+   // Constructor increments the instance count
    InstanceCounter() {
-       InstanceCounter.addInstance();
+      InstanceCounter.addInstance();
    }
-   // and here
 
    public static void main(String[] arguments) {
-       System.out.println("Starting with " +
-            InstanceCounter.getCount() + " objects");
-       for (int i = 0; i < 500; ++i) {
-            new InstanceCounter();
-       }
-       // 
-       System.out.println("Created " +
-            InstanceCounter.getCount() + " objects");
+      System.out.println("Starting with " +
+         InstanceCounter.getCount() + " objects");
+      for (int i = 0; i < 500; ++i) {
+         InstanceCounter ic = new InstanceCounter();
+      }
+      System.out.println("Created " +
+         InstanceCounter.getCount() + " objects");
+      System.out.println("Exiting with " +
+         InstanceCounter.getCount() + " objects");
+         
    }
 }
-

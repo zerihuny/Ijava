@@ -18,4 +18,5 @@ public class FileReaderExample {
         }
     }
 }
-// This code demonstrates reading a file line by line using BufferedReader.
+// This code demonstrates reading a file line by line using BufferedReader. 
+// It handles exceptions for file not found and IO errors, ensuring resources are closed properly with try-with-resources.

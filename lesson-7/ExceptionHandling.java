@@ -21,3 +21,5 @@ public class ExceptionHandling {
         System.out.println("Result is: " + new ExceptionHandling().result);
     }
 }
+// Output will show the exception message and the final result value.
+// Note: The result variable is initialized to 0 and remains unchanged since no assignment occurs in the try block.

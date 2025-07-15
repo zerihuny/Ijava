@@ -18,3 +18,4 @@ public class FileReaderExample {
         }
     }
 }
+// This code demonstrates reading a file line by line using BufferedReader.

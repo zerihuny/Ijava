@@ -9,37 +9,16 @@ class MyThread extends Thread {
             System.out.println(getName() + " - Count: " + i);
             try {
                 // Sleep for 500 milliseconds to simulate work
-                // the sleep in milliseconds 
                 Thread.sleep(500);
             } catch (InterruptedException e) {
+                // Handle interruption during sleep
                 System.out.println(getName() + " interrupted.");
-            }//
-            //
-            /// asdfasdf
-            ///
-            ///
-            ///
-            ///
-            ///
-            ///
-            ///
-            ///
-            ///
-            ///
-            ///         
-            ///
-            ///            /// This is a comment that explains the purpose of the code
+            }
         }
-        /// ene mn awke
-        ///sdafasdf
-        // ////////
-        /// aS
-        /// masd
+        // Indicate that this thread has finished execution
         System.out.println(getName() + " finished.");
-        // This is a tread that will allow concurrent 
     }
 }
-//
 
 public class arch {
     public static void main(String[] args) {
@@ -47,11 +26,12 @@ public class arch {
         MyThread t1 = new MyThread();
         MyThread t2 = new MyThread();
 
-        // Start the threads; this calls their run() methods
+        // Start the threads; this calls their run() methods concurrently
         t1.start();
         t2.start();
 
         // Main thread prints a message
         System.out.println("Main thread finished.");
     }
+    
 }

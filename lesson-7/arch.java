@@ -38,3 +38,5 @@ public class arch {
     ///
     ////////////
 }
+///// This is a simple Java program that demonstrates the creation and execution of threads.
+// It defines a custom thread class, starts two threads, and prints messages from both the main

@@ -34,13 +34,5 @@ public class arch {
         System.out.println("Main thread finished.");
     }
 
-
-    ///
-    ////////////
 }
-///// This is a simple Java program that demonstrates the creation and execution of threads.
-// It defines a custom thread class, starts two threads, and prints messages from both the main
-// thread and the custom threads. The custom threads print a count from 1 to 5 with a delay.
-// --- IGNORE ---
-// --- IGNORE ---
-} // --- IGNORE ---     
+// This is a simple Java program that demonstrates the creation and execution of threads.

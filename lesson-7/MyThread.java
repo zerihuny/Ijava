@@ -13,6 +13,9 @@ public class Main {
 
 // 
 // qwerty  
+
+
+// 
 // qwerty
 // This code defines a simple thread by extending the Thread class.
 // The run method is overridden to provide the thread's behavior.

@@ -13,6 +13,7 @@ public class Main {
 
 // 
 
-
+// This code defines a simple thread by extending the Thread class.
+// The run method is overridden to provide the thread's behavior.
 // This code defines a simple thread by extending the Thread class.// The run method is overridden to provide the thread's behavior.
 // In the main method, an instance of MyThread is created and started.// The thread will print its name when it runs.

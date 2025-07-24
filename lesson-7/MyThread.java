@@ -16,3 +16,4 @@ public class Main {
 // In the main method, an instance of MyThread is created and started, which will execute the run method in a new thread.
 // The output will show that the thread is running, along with  
 // the thread's name.
+// Note: The thread's name is automatically assigned by the JVM, but you can set it using setName method if needed.pr@65

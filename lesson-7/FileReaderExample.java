@@ -23,4 +23,5 @@ public class FileReaderExample {
 // Note: Th
 // e file "data.txt" should exist in the same directory as this Java file, or you can specify a different path. 
 // Note: The file "data.txt" should exist in the same directory as this Java file, or you can specify a different path. 
+// Note: The file "data.txt" should exist in the same directory as this Java file, or you can specify a different path. 
 ..// Note: The file "data.txt" should exist in the same directory as this Java file, or you can specify a different path.

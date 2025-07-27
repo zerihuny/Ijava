@@ -22,3 +22,4 @@ public class FileReaderExample {
 // Make sure to create a file named "data.txt" in the same directory as this Java file before running the code, or adjust the path accordingly.
 // Note: The file "data.txt" should exist in the same directory as this Java file, or you can specify a different path. 
 // Note: The file "data.txt" should exist in the same directory as this Java file, or you can specify a different path. 
+..// Note: The file "data.txt" should exist in the same directory as this Java file, or you can specify a different path.

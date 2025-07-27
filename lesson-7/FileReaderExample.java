@@ -18,10 +18,3 @@ public class FileReaderExample {
         }
     }
 }
-// This code reads a file named "data.txt" line by line and prints each line to the console. It handles exceptions for file not found and IO errors, ensuring that resources are closed properly using try-with-resources.
-// Make sure to create a file named "data.txt" in the same directory as this Java file before running the code, or adjust the path accordingly.
-// Note: Th
-// e file "data.txt" should exist in the same directory as this Java file, or you can specify a different path. 
-// Note: The file "data.txt" should exist in the same directory as this Java file, or you can specify a different path. 
-// Note: The file "data.txt" should exist in the same directory as this Java file, or you can specify a different path. 
-..// Note: The file "data.txt" should exist in the same directory as this Java file, or you can specify a different path.

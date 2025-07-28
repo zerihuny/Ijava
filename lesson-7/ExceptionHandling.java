@@ -25,3 +25,8 @@ public class ExceptionHandling {
 // Note: The result variable is initialized to 0 and remains unchanged since no assignment occurs in the try block.
 // The program will not terminate abruptly due to the exception.
 // Instead, it will handle the exception gracefully and continue execution. 
+// The finally block ensures that certain code runs regardless of whether an exception occurred or not.
+// The output will include the exception message and the value of the result variable, which is 0.
+// The program demonstrates how to handle exceptions in Java using try-catch blocks.
+// The try block contains code that may throw an exception.
+// The catch blocks handle specific exceptions, allowing the program to continue running.

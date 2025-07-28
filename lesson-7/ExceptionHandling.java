@@ -23,3 +23,5 @@ public class ExceptionHandling {
 }
 // Output will show the exception message and the final result value.
 // Note: The result variable is initialized to 0 and remains unchanged since no assignment occurs in the try block.
+// The program will not terminate abruptly due to the exception.
+// Instead, it will handle the exception gracefully and continue execution. 
